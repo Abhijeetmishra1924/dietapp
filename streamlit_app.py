@@ -4,7 +4,8 @@ import numpy as np
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
-
+st.title("Personalized Diet & Meal Planner")
+st.markdown("click in arrow to Get a customized  diet plan based on your profile, fitness goal, and dietary preferences.")
 @st.cache_data
 def load_data():
     df = pd.read_csv("diet0011BB.csv")
